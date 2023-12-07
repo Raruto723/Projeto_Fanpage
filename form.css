@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Imagens/fundo_form.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+label {
+    color: white;
+    display: block;
+    text-align: left;
+}
+form {
+    border-radius: 30px;
+    margin: 0 25%;
+    width: 50%;
+    padding: 5% 15%;
+    background-color: rgba(94, 94, 94, 0.592);
+}
+input {
+    color: rgba(0, 0, 0, 0.551);
+    display: block;
+    text-align: left;
+    width: 100%;
+    background-color: cornsilk;
+}
+input[type=submit] , input[type=reset]{
+    width: 50%;
+    text-align: center;
+    margin: 10px 25%;
+}
+a {
+    margin: 50% 0;
+    color: white;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(94, 94, 94, 0.592);
+}
+@media only screen and (max-width:640px) {
+    form{
+        margin: 0;
+        width: 100%;
+    }
+}

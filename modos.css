@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'minecrafter2';
+    src: url(minecrafter/Minecrafter.Alt.ttf);
+}
+@font-face {
+    font-family: 'minecrafter';
+    src: url(minecrafter/Minecrafter.Reg.ttf);
+}
+body {
+    background-image: url(Imagens/grama2.webp);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+a {
+    color: whitesmoke;
+    font-family: 'minecrafter';
+    font-size: 100%;
+}
+h3 , h1 , h2 {
+    font-family: 'minecrafter';
+    font-size: 20px;
+}
+p {
+    color: rgb(255, 255, 255);
+}
+section {
+    padding: 25px;
+}
+nav {
+    position: fixed;
+}
+.text{
+    border-radius: 10px;
+    background-color: rgba(107, 32, 32, 0.521);
+    margin: 10px;
+}
+.w3-round-xlarge {
+    background-color: rgba(165, 42, 42, 0.555);
+    color: white;
+}

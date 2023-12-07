@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(100, 72, 41);
+    background-image: url(https://www.minecraft.net/content/dam/games/badger/key-art/TheArrival_1170x500.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'minecrafter2';
+    src: url(minecrafter/Minecrafter.Alt.ttf);
+}
+@font-face {
+    font-family: 'minecrafter';
+    src: url(minecrafter/Minecrafter.Reg.ttf);
+}
+h1 {
+    font-family: 'minecrafter2';
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 17px;
+}
+a {
+    color: whitesmoke;
+    font-family:'minecrafter';
+    display: block;
+    margin: 10px;
+}
+section {
+    padding-top: 20px ;
+    background-color: rgba(77, 77, 77, 0.541);
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+}
+nav {
+    position: fixed;
+}
+
+@media only screen and (min-width:640px) {
+ 
+    section{
+        margin: 0 25%;
+        width: auto;
+        text-align: center;
+        padding: 30px;
+        border-radius: 30px;
+    }
+}
+

@@ -1,0 +1,57 @@
+<!--Feito-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="Imagens/icone.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Entrar - Fanpage</title>
+</head>
+
+<body>
+    <h1>Entrar na Fanpage</h1>
+    <form action="index.html">
+        <div>
+            <label>Nome:<input type="text" required></label>
+            <label>E-mail:<input type="email" required></label>
+            <label>Senha:<input type="password" required></label>
+        </div>
+        <div class="id">
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar">
+        </div>
+        <a class="w3-button w3-block w3-black w3-margin-top w3-round" type="button"
+            onclick="document.getElementById('id01').style.display='block'">Cadastrar</a>
+    </form>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+
+            <header class="w3-container w3-black">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <h2>Cadastro de Usuário</h2>
+            </header>
+
+            <div class="">
+                <form action="index.html">
+                    <input class="" type="text" name="nome" id="nome" placeholder="Nome">
+                    <input class="" type="text" name="CPF" id="CPF" placeholder="CPF: xxxx.xxxx-xx">
+                    <input class="" type="email" name="E-mail" id="Email" placeholder="E-mail">
+                    <input class="" type="password" name="senha" id="senha" placeholder="Senha">
+                    <footer class=" w3-black">
+                        <div class="w3-center">
+                            <div class="">
+                                <button class="w3-button w3-blue w3-round">Entrar</button>
+                            </div>
+                        </div>
+                    </footer>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

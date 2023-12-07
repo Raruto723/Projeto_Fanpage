@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'minecrafter2';
+    src: url(minecrafter/Minecrafter.Alt.ttf);
+}
+@font-face {
+    font-family: 'minecrafter';
+    src: url(minecrafter/Minecrafter.Reg.ttf);
+}
+nav {
+    position: fixed;
+}
+body{
+    background-image: url(Imagens/pedradepotion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+a{
+    color: black;
+    font-family: 'minecrafter';
+}
+h1 {
+    font-family: 'minecrafter';
+    text-align: center;
+    font-size: 40px;
+}
+li {
+    font-family: monospace;
+    font-size: 20px; 
+}
+p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+#aten{
+    color: #d44141;
+}
+div {
+    border-radius: 15px;
+}
+#um {
+    background-color: rgba(103, 92, 255, 0.551);
+}
+#dois {
+    background-color: rgba(3, 187, 132, 0.551);
+}
+#tres {
+    background-color: rgba(242, 107, 235, 0.551);
+}
+#quatro {
+    background-color: rgba(175, 42, 195 ,0.551);
+}
+#cinco {
+    background-color: rgba(186, 123, 44,0.551);
+}
+#seis {
+    background-color: rgba(125, 27, 2,0.551);
+}
+#sete {
+    background-color: rgba(101, 144, 161,0.551);
+}
+#oito {
+    background-color: rgba(91, 74, 251,0.551);
+}
+#nove {
+    background-color: rgba(177, 140, 245,0.551);
+}
+#dez {
+    background-color: rgba(44, 243, 92,0.551);
+}
+#onze {
+    background-color: rgba(177,156,217,0.551);
+}
+#doze {
+    background-color: rgba(182,49,154,0.551);
+} 
+
+
+    
